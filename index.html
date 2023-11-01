@@ -9,7 +9,7 @@
 table,
 th,
 td {
-            border: 1px solid black;
+            border: 2px solid black;
             border-collapse: collapse;
 	    text-align: center;
 	    font-size: 17px;
@@ -20,8 +20,10 @@ td {
 table.tablecenter {
 	margin-left: auto;
 	margin-right: auto;
-	
+	background-color:white;
 }
+
+
 div.center-calibrating-thermometer {
   text-align: center;
 background-color: white;
@@ -32,11 +34,11 @@ ol.calibrating-thermometer {
   text-align: left;
 }
 #backgroundbanner {
-width:650px;
+width:60%;
 height:900px;
 position: fixed;
-;
-left:27.5%;
+left: 20%;
+
 z-index:-1;
 	
 }
@@ -51,11 +53,19 @@ z-index:-1;
 	    background-color: white;
 
         }
+
+.imghover{
+	transition: transform 1s;
+}
+.imghover:hover {
+	transform: scale(1.3);
+}
+
 </style>
 </head>
 
 <body>
-<p ><img src="https://www.publicdomainpictures.net/pictures/200000/velka/plain-white-background-1480544970glP.jpg" alt="background banner" id="backgroundbanner"></p>
+<p style="text-align:center;"><img src="https://www.publicdomainpictures.net/pictures/200000/velka/plain-white-background-1480544970glP.jpg" alt="background banner" id="backgroundbanner"></p>
 
 <h1 id="top-of-page" style="text-align:center;">Recipes: Homepage</h1>
 
@@ -72,20 +82,20 @@ z-index:-1;
 
 <p style="text-align:center">
 	<a href="pancakes.html" >
-		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Blueberry_pancakes_%283%29.jpg/330px-				Blueberry_pancakes_%283%29.jpg" alt="Blueberry Pancakes" width="350">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Blueberry_pancakes_%283%29.jpg/330px-				Blueberry_pancakes_%283%29.jpg" alt="Blueberry Pancakes" width="350" class="imghover" >
 </p>
 
 <h3 style="text-align:center;">Pancakes<a></h3>
 <br>
 <p style="text-align:center;">
 <a href="crepes.html">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Cr%C3%AApe_opened_up.jpg/330px-Cr%C3%AApe_opened_up.jpg" alt="Crepes on a plate" width="350"></p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Cr%C3%AApe_opened_up.jpg/330px-Cr%C3%AApe_opened_up.jpg" alt="Crepes on a plate" width="350" class="imghover"></p>
 <h3 style="text-align:center;">Crepes</a></h3>
 
 <br>
 <p style="text-align:center;">
 <a href="belgian-waffles.html">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Waffle_with_strawberries_and_confectioner%27s_sugar.jpg/375px-Waffle_with_strawberries_and_confectioner%27s_sugar.jpg" alt="Belgian Waffle on a plate with strawberriers" width="350"></p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Waffle_with_strawberries_and_confectioner%27s_sugar.jpg/375px-Waffle_with_strawberries_and_confectioner%27s_sugar.jpg" alt="Belgian Waffle on a plate with strawberriers" width="350" class="imghover"></p>
 <h3 style="text-align:center;">Belgian Waffles<a></h3>
 
 
@@ -98,7 +108,7 @@ z-index:-1;
 
 <p style="text-align: center;">
 <a href="chocolate-haystacks.html">
-<img src="https://th.bing.com/th/id/R.c7f839c05be1a840aa0f68ff33db1ebe?rik=JE4MVsAnl9ad7A&riu=http%3a%2f%2f4.bp.blogspot.com%2f-TJXn_toJlXE%2fUdi8T0jiHmI%2fAAAAAAAAAQ4%2f2LW9vwRQFtM%2fs1600%2fmacaroons2.jpg&ehk=F0sxHsvQnvwUSs6e7k3ZS9WgDNb2ZdgwS%2fKvYjFXCeQ%3d&risl=&pid=ImgRaw&r=0" alt="haystacks" width="350">
+<img src="https://th.bing.com/th/id/R.c7f839c05be1a840aa0f68ff33db1ebe?rik=JE4MVsAnl9ad7A&riu=http%3a%2f%2f4.bp.blogspot.com%2f-TJXn_toJlXE%2fUdi8T0jiHmI%2fAAAAAAAAAQ4%2f2LW9vwRQFtM%2fs1600%2fmacaroons2.jpg&ehk=F0sxHsvQnvwUSs6e7k3ZS9WgDNb2ZdgwS%2fKvYjFXCeQ%3d&risl=&pid=ImgRaw&r=0" alt="haystacks" width="350" class="imghover">
 </p>
 
 <h3 style="text-align:center;">Chocolate Haystacks</h3>
@@ -106,14 +116,14 @@ z-index:-1;
 <br>
 <p style="text-align: center;">
 <a href="double-chocolatechip-cookies.html">
-<img src="https://blackwells-butchers.com/wp-content/uploads/2020/08/chocolate-chip-cookie.jpg" alt="double chocolate cookies on a plate" width="350">
+<img src="https://blackwells-butchers.com/wp-content/uploads/2020/08/chocolate-chip-cookie.jpg" alt="double chocolate cookies on a plate" width="350" class="imghover">
 </p>
 
 <h3 style="text-align:center;">Double Chocolatechip Cookies</h3>
 </a>
 
 <h2 style="text-align:center;" id="conversion-table">Conversion Table<h2>
-
+<div class="tablebackground">
 <table class="tablecenter" width="600" height="400">
             <thead>
                 <tr >
@@ -186,7 +196,8 @@ z-index:-1;
                 <td>236.6</td>
             </tbody>
         </table>
-</p>
+	</div>
+
 
 <br>
 <br>
@@ -217,6 +228,8 @@ Copyright 2023@watson63 </p>
 
 
 </html>
+
+
 
 
 
