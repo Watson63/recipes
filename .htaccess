@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Protected Site"
-AuthUserFile watson63/pas/.htpasswd
+AuthUserFile watson63.github.io/pas/.htpasswd
 require valid-user
